@@ -1,9 +1,10 @@
+import { router } from "./route/phone";
 const expressFunction = require('express');
 const mongoose = require('mongoose');
 
 var expressApp = expressFunction(); //object to call
 
-const url = "mongodb://test:1234@0.0.0.0:27017/testdb";
+const url = "mongodb://test:1234@0.0.0.0:27017/testdb?authSource=admin";
 const config ={
     autoIndex: true,
     useNewUrlParser: true,
