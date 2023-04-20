@@ -1,5 +1,6 @@
-# node
-node_modules
-
 # docker volumn
-dataMongoDB
+database/dataMongoDB
+
+#backend
+backend/target
+backend/node_modules
