@@ -23,7 +23,7 @@ router.route('/phone')
             price: req.body.price,
             color: req.body.color,
             storage: req.body.storage,
-            spec: req.body.spce,
+            spec: req.body.spec,
         }
         console.log("payload", payload)
         const payloadTodo = new Phone(payload)
